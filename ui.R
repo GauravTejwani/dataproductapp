@@ -20,7 +20,8 @@ shinyUI(
       h4('You entered your height as'),
       verbatimTextOutput("inputValue2"),
       h4('Your child height (in inches) is'),
-      verbatimTextOutput("prediction")
+      verbatimTextOutput("prediction"),
+      plotOutput('newHist')
     )
   )
 )
